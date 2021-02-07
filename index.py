@@ -17,5 +17,5 @@ async def on_message(message):
         a = ['안녕', '안녕하십니까!', '하이', '안녕하세요']
         await message.channel.send(random.choice(a))
 
-access_token = os.environ["BOT_TOKEN"]
+os.environ['BOT_TOKEN']
 client.run(access_token)
